@@ -43,7 +43,7 @@ for i in range (e):
     cost=int(new_edge[2])
     g.addEdge(source,destination,cost)
     
-start = timeit.default_timer() 
+start = timeit.default_timer() #start the time
 g.BellF(0)
-stop = timeit.default_timer()
+stop = timeit.default_timer() #stop the time
 print stop - start
